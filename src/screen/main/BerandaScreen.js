@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
+import {View, Text, StyleSheet, TouchableOpacity, FlatList} from 'react-native';
 
 const BarProgress = (name = 'Food', progress = 10, color = '#0ce10c') => {
   return (
@@ -19,56 +19,189 @@ const BarProgress = (name = 'Food', progress = 10, color = '#0ce10c') => {
   );
 };
 
-const Todo = () => {
-  return (
-    <View style={{
-      paddingRight: 15,
-    }}>
-      <Text
+class Todo extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isAktif: true,
+    };
+    //
+    // console.log(arr);
+  }
+
+  arr = this.props.tanggal.split('-');
+  bulanNama = [
+    '',
+    'Januari',
+    'Februari',
+    'Maret',
+    'April',
+    'Mei',
+    'Juni',
+    'Juli',
+    'Agustus',
+    'September',
+    'Oktober',
+    'November',
+    'Desember',
+  ];
+
+  render() {
+
+    return (
+      <View
         style={{
-          width: 60,
-          height: 60,
-          backgroundColor: '#ffd768',
-          borderRadius: 30,
-          textAlignVertical: 'center',
-          textAlign: 'center',
-          color: '#000000',
-          // fontWeight: '900',
-          // fontSize: 30,
-          fontFamily: 'Audrey-Bold',
+          paddingRight: 15,
         }}>
-        24{'\n'}May{'\n'}22
-      </Text>
-    </View>
-  );
-};
-
-const BerandaScreen = () => {
-  return (
-    <View style={styles.container}>
-      {/* Section Bar */}
-      <Text style={styles.heading}>Bulan Ini</Text>
-      <View>
-        {BarProgress('Food', 40, '#0ce10c')}
-        {BarProgress('Shoping', 90, '#e10c0c')}
-        {BarProgress('Food', 75, '#ffd768')}
+        <Text
+          style={{
+            width: 60,
+            height: 60,
+            backgroundColor: '#ffd768',
+            borderRadius: 30,
+            textAlignVertical: 'center',
+            textAlign: 'center',
+            color: '#000000',
+            // fontWeight: '900',
+            fontSize: 13,
+            fontFamily: 'Audrey-Bold',
+          }}>
+          {this.arr[0]}
+          {'\n'}
+          {this.bulanNama[parseInt(this.arr[1])]}
+          {'\n'}
+          {this.arr[2]}
+        </Text>
+          {this.props.active ? (
+            <View
+            style={{
+              alignItems: 'center',
+            }}>
+              <View
+                style={{
+                  width: 0,
+                  height: 0,
+                  backgroundColor: 'transparent',
+                  borderTopWidth: 0,
+                  borderRightWidth: 8,
+                  borderBottomWidth: 15,
+                  borderLeftWidth: 8,
+                  borderTopColor: 'transparent',
+                  borderRightColor: 'transparent',
+                  borderBottomColor: '#ffd768',
+                  borderLeftColor: 'transparent',
+                }}
+              />
+              <View
+                style={{
+                  width: 0,
+                  height: 0,
+                  backgroundColor: 'transparent',
+                  borderTopWidth: 0,
+                  borderRightWidth: 6,
+                  borderBottomWidth: 14,
+                  borderLeftWidth: 6,
+                  borderTopColor: 'transparent',
+                  borderRightColor: 'transparent',
+                  borderBottomColor: '#fdffdc',
+                  borderLeftColor: 'transparent',
+                  bottom: 14,
+                  position: 'relative',
+                }}
+              />
+            </View>
+          ) : (
+            <View />
+          )}
       </View>
-      {/* . Section Bar */}
+    );
+  }
+}
 
-      {/* Section Todo */}
-      <Text style={styles.heading}>To Do List</Text>
-      <View style={{
-        flexDirection: 'row',
-      }}>
-      {Todo()}
-        {Todo()}
-        {Todo()}
-        {Todo()}
-        {Todo()}
+const TodoArr = [
+  {
+    id: 1,
+    tanggal: '26-02-2022',
+    active: false,
+  },
+  {
+    id: 2,
+    tanggal: '27-10-2022',
+    active: true,
+  },
+  {
+    id: 3,
+    tanggal: '28-10-2022',
+    active: false,
+  },
+  {
+    id: 4,
+    tanggal: '28-10-2022',
+    active: false,
+  },
+  {
+    id: 5,
+    tanggal: '28-10-2022',
+    active: false,
+  },
+  {
+    id: 6,
+    tanggal: '28-10-2022',
+    active: false,
+  },
+  {
+    id: 7,
+    tanggal: '28-11-2022',
+    active: false,
+  },
+  {
+    id: 8,
+    tanggal: '28-12-2022',
+    active: false,
+  },
+];
+
+class BerandaScreen extends React.Component {
+
+  constructor(props){
+    super(props);
+  }
+  
+  render(){
+    return (
+      <View style={styles.container}>
+        {/* Section Bar */}
+        <Text style={styles.heading}>Bulan Ini</Text>
+        <View>
+          {BarProgress('Food', 40, '#0ce10c')}
+          {BarProgress('Shoping', 90, '#e10c0c')}
+          {BarProgress('Food', 75, '#ffd768')}
+        </View>
+        {/* . Section Bar */}
+  
+        {/* Section Todo */}
+        <Text style={styles.heading}>To Do List</Text>
+        <View
+          style={{
+            flexDirection: 'row',
+            zIndex: 3,
+          }}>
+          <FlatList
+            horizontal
+            data={TodoArr}
+            renderItem={({item}) => <Todo tanggal={item.tanggal} active={item.active} />}
+            keyExtractor={item => item.id}
+          />
+        </View>
+        <View style={styles.todoContainer}>
+          <Text>Makan Gado Gado</Text>
+          <Text>Harus makan gado gado, kalo tidak kita jadi zombie</Text>
+        </View>
+        {/* . Section Todo */}
       </View>
-      {/* . Section Todo */}
-    </View>
-  );
+    );
+  }
+
 };
 
 const styles = StyleSheet.create({
@@ -87,6 +220,15 @@ const styles = StyleSheet.create({
     paddingBottom: 15,
     width: '100%',
   },
+  todoContainer: {
+    backgroundColor: '#fdffdc',
+    padding: 10,
+    borderColor: '#ffd768',
+    borderWidth: 1,
+    top: -17,
+    zIndex: 1,
+  },
+  todoJudul: {},
 });
 
 export default BerandaScreen;

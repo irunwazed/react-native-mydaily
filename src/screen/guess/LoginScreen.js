@@ -7,11 +7,11 @@ import {
   TouchableOpacity,
   TextInput,
 } from 'react-native';
-import BackgroundAwal from '../components/BackgroundAwal';
-import SvgEye from '../../assets/icon/eye-slash-solid.svg';
+import BackgroundAwal from '../../components/BackgroundAwal';
+import SvgEye from '../../../assets/icon/eye-slash-solid.svg';
 import CheckBox from '@react-native-community/checkbox';
 
-// import LinearGradient from 'react-native-linear-gradient';
+import LinearGradient from 'react-native-linear-gradient';
 
 class LoginScreen extends React.Component {
   state = {
@@ -25,7 +25,7 @@ class LoginScreen extends React.Component {
         {/* <SvgEye width={100} height={100} fill="#ffd768" /> */}
         <ImageBackground
           style={styles.logo}
-          source={require('../../assets/img/logo.png')}
+          source={require('../../../assets/img/logo.png')}
         />
         <Text
           style={{
@@ -80,13 +80,32 @@ class LoginScreen extends React.Component {
                   this.setState({isRemember: !this.state.isRemember})
                 }
               />
-              <Text style={[styles.label, {fontSize: 13, left: -25}]}>
+              <Text style={[styles.label, {fontSize: 13, left: -100, top: 5}]}>
                 Remember Me
               </Text>
             </View>
 
-            <Text style={[styles.label, {fontSize: 13}]}>Forget Password?</Text>
+            <Text style={[styles.label, {fontSize: 13, top: 8}]}>
+              Forget Password?
+            </Text>
           </View>
+          <TouchableOpacity>
+            <LinearGradient
+              colors={['#ffd565', '#ff9f20']}
+              start={{x: 0, y: 0}}
+              end={{x: 1, y: 0}}
+              style={styles.btn}>
+              <Text
+                style={{
+                  textAlign: 'center',
+                  fontSize: 15,
+                  color: '#ff0000',
+                  fontWeight: 'bold',
+                }}>
+                Login
+              </Text>
+            </LinearGradient>
+          </TouchableOpacity>
         </View>
       </View>
     );
@@ -127,6 +146,13 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     borderColor: '#ffd768',
     borderWidth: 1,
+  },
+  btn: {
+    padding: 10,
+    width: 140,
+    borderRadius: 14,
+    marginLeft: '29%',
+    marginTop: 10,
   },
 });
 

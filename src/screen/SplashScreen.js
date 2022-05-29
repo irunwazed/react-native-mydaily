@@ -1,21 +1,13 @@
 import React from 'react';
 import {View, Text, StyleSheet, ImageBackground} from 'react-native';
 // import LinearGradient from 'react-native-linear-gradient';
+// import BackgroundAwal from '../components/BackgroundAwal';
 
 const SplashScreen = () => {
   return (
     <View
       style={styles.container}>
-      <ImageBackground
-        style={{
-					position: 'absolute',
-					top: 0,
-					right: 0,
-					width: 200,
-					height: 225,
-				}}
-        source={require('../../assets/img/bg-right.png')}
-      />
+      {/* <BackgroundAwal /> */}
       <ImageBackground
         style={styles.logo}
         source={require('../../assets/img/logo.png')}
@@ -36,17 +28,6 @@ const SplashScreen = () => {
 					textAlign: 'center',
 				}}
 				>Catatan Keseharian Mu</Text>
-      <ImageBackground
-        style={{
-					position: 'absolute',
-					bottom: 0,
-					left: 0,
-					width: 200,
-					height: 225,
-				}}
-        source={require('../../assets/img/bg-left.png')}
-      />
-      {/* <Text style={styles.text} >My Diary</Text> */}
     </View>
   );
 };

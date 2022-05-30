@@ -53,18 +53,24 @@ class Todo extends React.Component {
         style={{
           paddingRight: 15,
         }}>
-        <Text
-          style={{
-            width: 60,
-            height: 60,
+					<View
+					style={{
+						width: 60,
+						height: 60,
             backgroundColor: '#ffd768',
             borderRadius: 30,
             textAlignVertical: 'center',
+						justifyContent: 'center',
+						// backgroundColor: 'red',
+					}}
+					>
+
+					<Text
+          style={{
             textAlign: 'center',
             color: '#000000',
-            // fontWeight: '900',
             fontSize: 13,
-            fontFamily: 'Audrey-Bold',
+            // fontFamily: 'Roboto-Black',
           }}>
           {this.arr[0]}
           {'\n'}
@@ -72,6 +78,7 @@ class Todo extends React.Component {
           {'\n'}
           {this.arr[2]}
         </Text>
+					</View>
           {this.props.active ? (
             <View
             style={{
@@ -214,7 +221,7 @@ const styles = StyleSheet.create({
     // fontWeight: 'bold',
     color: '#000',
     paddingBottom: 5,
-    fontFamily: 'Audrey-Bold',
+    // fontFamily: 'Audrey-Bold',
   },
   barProgress: {
     paddingBottom: 15,

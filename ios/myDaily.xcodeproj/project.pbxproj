@@ -10,36 +10,8 @@
 		00E356F31AD99517003FC87E /* myDailyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* myDailyTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-myDaily.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-myDaily.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-myDaily-myDailyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-myDaily-myDailyTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		5EB175AEE1F7443AA58CEFA4 /* Audrey.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65ABC183149D4A3F9AFE44D8 /* Audrey.otf */; };
-		CC8F77735629462884F50C8B /* Audrey-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C7B69A7538468DB462EC77 /* Audrey-Bold.otf */; };
-		2D3B37699C034A9D9795E1E3 /* Audrey-BoldOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3730516198E6455CBE69A343 /* Audrey-BoldOblique.otf */; };
-		299FA11A42FE4FB5B45F029A /* Audrey-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B10C4D32841B47E3B745C515 /* Audrey-Medium.otf */; };
-		F917224EF4D44BC082A3EF1F /* Audrey-MediumOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BFBA9595F124485B3F0A89E /* Audrey-MediumOblique.otf */; };
-		E4643DAB4C0A4D26A02631D8 /* Audrey-Normal.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCCF13DE23784C22A4698EA7 /* Audrey-Normal.otf */; };
-		A915FB7B70B1454B87E88C7A /* Audrey-NormalOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = E1A72B2FA45F43B19183C854 /* Audrey-NormalOblique.otf */; };
-		916AFF2435FC49F799194274 /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F220543658446E09DB8A5F7 /* PatrickHand-Regular.ttf */; };
-		34B9C7EBD88C4E88AE5ED275 /* Audrey-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2D0B6685D7040F392E99A06 /* Audrey-Bold.otf */; };
-		0E6995929669469D8D61A3FB /* Audrey-BoldOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB68EFF9C7A84CD5AC73C2D6 /* Audrey-BoldOblique.otf */; };
-		07140C64193F47C4B29CD67A /* Audrey-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF1421890A4682A68094EE /* Audrey-Medium.otf */; };
-		67B2108EADCD4662BC906735 /* Audrey-MediumOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F0CB15E85B54A91912069B4 /* Audrey-MediumOblique.otf */; };
-		711130C51A1F41C88FCD3AAC /* Audrey-Normal.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9160970423F94812AD63E94C /* Audrey-Normal.otf */; };
-		76C589C627DB40FC8F11714C /* Audrey-NormalOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD220413F6934D5AB9A38413 /* Audrey-NormalOblique.otf */; };
-		5DE915F2EA794E45A6EA78C3 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E0AAC2FB93245008E56CC48 /* Roboto-Black.ttf */; };
-		A44E11C5481A423CAAF69B77 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA0717BD9572464C910A96C1 /* Roboto-BlackItalic.ttf */; };
-		80007BC6A3EE44BD85D2E6C0 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797E7A85C2B34E40B563CA5B /* Roboto-Bold.ttf */; };
-		A997DB0D0BC546DA92C0ED47 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F68243467CB64689940F4C89 /* Roboto-BoldItalic.ttf */; };
-		48A84EC443C84D0E8A5AC763 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CA094C4C0EE402688DA47BC /* Roboto-Italic.ttf */; };
-		018F1775BCDC403F9FBD8982 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFB52DB17F954CF994AA7ABF /* Roboto-Light.ttf */; };
-		077E5277E40D4F6F835C7A81 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5317ABE873FE49FC895FE17A /* Roboto-LightItalic.ttf */; };
-		A59692C2CC4049309F03FB5E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC0009EF646474F9C51F819 /* Roboto-Medium.ttf */; };
-		E1F5292E247B4E10849A4BE1 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B64A0FF21D8B4CE786D980E8 /* Roboto-MediumItalic.ttf */; };
-		F18775C1B5444156A4319ADB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A998382776454DBCBCC25730 /* Roboto-Regular.ttf */; };
-		C46B29033339479FB0FB9976 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CE3B2A6158D4DDEA194E8AE /* Roboto-Thin.ttf */; };
-		89DA4A84E513483DB9FB8ECB /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4649F34ECEA8409CB2020D58 /* Roboto-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +28,7 @@
 		00E356EE1AD99517003FC87E /* myDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* myDailyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myDailyTests.m; sourceTree = "<group>"; };
+		0BFBA9595F124485B3F0A89E /* Audrey-MediumOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-MediumOblique.otf"; path = "../assets/fonts/audrey/Audrey-MediumOblique.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* myDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = myDaily/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = myDaily/AppDelegate.mm; sourceTree = "<group>"; };
@@ -63,39 +36,38 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = myDaily/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = myDaily/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-myDaily-myDailyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myDaily-myDailyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3730516198E6455CBE69A343 /* Audrey-BoldOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-BoldOblique.otf"; path = "../assets/fonts/audrey/Audrey-BoldOblique.otf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-myDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDaily.debug.xcconfig"; path = "Target Support Files/Pods-myDaily/Pods-myDaily.debug.xcconfig"; sourceTree = "<group>"; };
+		4649F34ECEA8409CB2020D58 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4CE3B2A6158D4DDEA194E8AE /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		5317ABE873FE49FC895FE17A /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-myDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDaily.release.xcconfig"; path = "Target Support Files/Pods-myDaily/Pods-myDaily.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-myDaily-myDailyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDaily-myDailyTests.debug.xcconfig"; path = "Target Support Files/Pods-myDaily-myDailyTests/Pods-myDaily-myDailyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BAF1421890A4682A68094EE /* Audrey-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-Medium.otf"; path = "../assets/fonts/Audrey-Medium.otf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-myDaily.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myDaily.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65ABC183149D4A3F9AFE44D8 /* Audrey.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Audrey.otf; path = ../assets/fonts/Audrey.otf; sourceTree = "<group>"; };
+		6AC0009EF646474F9C51F819 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		797E7A85C2B34E40B563CA5B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		7E0AAC2FB93245008E56CC48 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		7F0CB15E85B54A91912069B4 /* Audrey-MediumOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-MediumOblique.otf"; path = "../assets/fonts/Audrey-MediumOblique.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = myDaily/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-myDaily-myDailyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDaily-myDailyTests.release.xcconfig"; path = "Target Support Files/Pods-myDaily-myDailyTests/Pods-myDaily-myDailyTests.release.xcconfig"; sourceTree = "<group>"; };
+		9160970423F94812AD63E94C /* Audrey-Normal.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-Normal.otf"; path = "../assets/fonts/Audrey-Normal.otf"; sourceTree = "<group>"; };
+		9CA094C4C0EE402688DA47BC /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		9F220543658446E09DB8A5F7 /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PatrickHand-Regular.ttf"; path = "../assets/fonts/patrick hand/PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
+		A998382776454DBCBCC25730 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B10C4D32841B47E3B745C515 /* Audrey-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-Medium.otf"; path = "../assets/fonts/audrey/Audrey-Medium.otf"; sourceTree = "<group>"; };
+		B64A0FF21D8B4CE786D980E8 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		BA0717BD9572464C910A96C1 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		BB68EFF9C7A84CD5AC73C2D6 /* Audrey-BoldOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-BoldOblique.otf"; path = "../assets/fonts/Audrey-BoldOblique.otf"; sourceTree = "<group>"; };
+		BD220413F6934D5AB9A38413 /* Audrey-NormalOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-NormalOblique.otf"; path = "../assets/fonts/Audrey-NormalOblique.otf"; sourceTree = "<group>"; };
+		CCCF13DE23784C22A4698EA7 /* Audrey-Normal.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-Normal.otf"; path = "../assets/fonts/audrey/Audrey-Normal.otf"; sourceTree = "<group>"; };
+		D0C7B69A7538468DB462EC77 /* Audrey-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-Bold.otf"; path = "../assets/fonts/audrey/Audrey-Bold.otf"; sourceTree = "<group>"; };
+		E1A72B2FA45F43B19183C854 /* Audrey-NormalOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-NormalOblique.otf"; path = "../assets/fonts/audrey/Audrey-NormalOblique.otf"; sourceTree = "<group>"; };
+		E2D0B6685D7040F392E99A06 /* Audrey-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Audrey-Bold.otf"; path = "../assets/fonts/Audrey-Bold.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		65ABC183149D4A3F9AFE44D8 /* Audrey.otf */ = {isa = PBXFileReference; name = "Audrey.otf"; path = "../assets/fonts/Audrey.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D0C7B69A7538468DB462EC77 /* Audrey-Bold.otf */ = {isa = PBXFileReference; name = "Audrey-Bold.otf"; path = "../assets/fonts/audrey/Audrey-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3730516198E6455CBE69A343 /* Audrey-BoldOblique.otf */ = {isa = PBXFileReference; name = "Audrey-BoldOblique.otf"; path = "../assets/fonts/audrey/Audrey-BoldOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B10C4D32841B47E3B745C515 /* Audrey-Medium.otf */ = {isa = PBXFileReference; name = "Audrey-Medium.otf"; path = "../assets/fonts/audrey/Audrey-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0BFBA9595F124485B3F0A89E /* Audrey-MediumOblique.otf */ = {isa = PBXFileReference; name = "Audrey-MediumOblique.otf"; path = "../assets/fonts/audrey/Audrey-MediumOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CCCF13DE23784C22A4698EA7 /* Audrey-Normal.otf */ = {isa = PBXFileReference; name = "Audrey-Normal.otf"; path = "../assets/fonts/audrey/Audrey-Normal.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E1A72B2FA45F43B19183C854 /* Audrey-NormalOblique.otf */ = {isa = PBXFileReference; name = "Audrey-NormalOblique.otf"; path = "../assets/fonts/audrey/Audrey-NormalOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9F220543658446E09DB8A5F7 /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; name = "PatrickHand-Regular.ttf"; path = "../assets/fonts/patrick hand/PatrickHand-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E2D0B6685D7040F392E99A06 /* Audrey-Bold.otf */ = {isa = PBXFileReference; name = "Audrey-Bold.otf"; path = "../assets/fonts/Audrey-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BB68EFF9C7A84CD5AC73C2D6 /* Audrey-BoldOblique.otf */ = {isa = PBXFileReference; name = "Audrey-BoldOblique.otf"; path = "../assets/fonts/Audrey-BoldOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5BAF1421890A4682A68094EE /* Audrey-Medium.otf */ = {isa = PBXFileReference; name = "Audrey-Medium.otf"; path = "../assets/fonts/Audrey-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7F0CB15E85B54A91912069B4 /* Audrey-MediumOblique.otf */ = {isa = PBXFileReference; name = "Audrey-MediumOblique.otf"; path = "../assets/fonts/Audrey-MediumOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9160970423F94812AD63E94C /* Audrey-Normal.otf */ = {isa = PBXFileReference; name = "Audrey-Normal.otf"; path = "../assets/fonts/Audrey-Normal.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BD220413F6934D5AB9A38413 /* Audrey-NormalOblique.otf */ = {isa = PBXFileReference; name = "Audrey-NormalOblique.otf"; path = "../assets/fonts/Audrey-NormalOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7E0AAC2FB93245008E56CC48 /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BA0717BD9572464C910A96C1 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		797E7A85C2B34E40B563CA5B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F68243467CB64689940F4C89 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9CA094C4C0EE402688DA47BC /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FFB52DB17F954CF994AA7ABF /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5317ABE873FE49FC895FE17A /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6AC0009EF646474F9C51F819 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B64A0FF21D8B4CE786D980E8 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A998382776454DBCBCC25730 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4CE3B2A6158D4DDEA194E8AE /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4649F34ECEA8409CB2020D58 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F68243467CB64689940F4C89 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FFB52DB17F954CF994AA7ABF /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +174,7 @@
 			sourceTree = "<group>";
 		};
 		E0792E4893514683B5AE70E2 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				65ABC183149D4A3F9AFE44D8 /* Audrey.otf */,
 				D0C7B69A7538468DB462EC77 /* Audrey-Bold.otf */,
@@ -233,7 +205,6 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -329,34 +300,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				5EB175AEE1F7443AA58CEFA4 /* Audrey.otf in Resources */,
-				CC8F77735629462884F50C8B /* Audrey-Bold.otf in Resources */,
-				2D3B37699C034A9D9795E1E3 /* Audrey-BoldOblique.otf in Resources */,
-				299FA11A42FE4FB5B45F029A /* Audrey-Medium.otf in Resources */,
-				F917224EF4D44BC082A3EF1F /* Audrey-MediumOblique.otf in Resources */,
-				E4643DAB4C0A4D26A02631D8 /* Audrey-Normal.otf in Resources */,
-				A915FB7B70B1454B87E88C7A /* Audrey-NormalOblique.otf in Resources */,
-				916AFF2435FC49F799194274 /* PatrickHand-Regular.ttf in Resources */,
-				34B9C7EBD88C4E88AE5ED275 /* Audrey-Bold.otf in Resources */,
-				0E6995929669469D8D61A3FB /* Audrey-BoldOblique.otf in Resources */,
-				07140C64193F47C4B29CD67A /* Audrey-Medium.otf in Resources */,
-				67B2108EADCD4662BC906735 /* Audrey-MediumOblique.otf in Resources */,
-				711130C51A1F41C88FCD3AAC /* Audrey-Normal.otf in Resources */,
-				76C589C627DB40FC8F11714C /* Audrey-NormalOblique.otf in Resources */,
-				5DE915F2EA794E45A6EA78C3 /* Roboto-Black.ttf in Resources */,
-				A44E11C5481A423CAAF69B77 /* Roboto-BlackItalic.ttf in Resources */,
-				80007BC6A3EE44BD85D2E6C0 /* Roboto-Bold.ttf in Resources */,
-				A997DB0D0BC546DA92C0ED47 /* Roboto-BoldItalic.ttf in Resources */,
-				48A84EC443C84D0E8A5AC763 /* Roboto-Italic.ttf in Resources */,
-				018F1775BCDC403F9FBD8982 /* Roboto-Light.ttf in Resources */,
-				077E5277E40D4F6F835C7A81 /* Roboto-LightItalic.ttf in Resources */,
-				A59692C2CC4049309F03FB5E /* Roboto-Medium.ttf in Resources */,
-				E1F5292E247B4E10849A4BE1 /* Roboto-MediumItalic.ttf in Resources */,
-				F18775C1B5444156A4319ADB /* Roboto-Regular.ttf in Resources */,
-				C46B29033339479FB0FB9976 /* Roboto-Thin.ttf in Resources */,
-				89DA4A84E513483DB9FB8ECB /* Roboto-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
